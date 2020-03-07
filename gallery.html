@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Gallery</title>
+    <meta charset="utf-8" />
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+    <link rel="shortcut icon" type="image/png" href="images/site-images/favicon.png" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/main.css" />
+    <script src="js/gallery.js"></script>
+    <script src="js/main.js"></script>
+    <script>
+        window.onscroll = function () { initialize() };
+        window.onload = function () { addGalleryContent() };
+    </script>
+</head>
+
+<body id="body">
+    <div class="navbar" id="navbar">
+        <a class="active">Pragusa</a>
+        <button id="openbtn" class="openbtn" onclick="openNav()">&#9776;</button>
+    </div>
+    <div class=main id="main">
+        <img src="images/site-images/backToTop.png" style="align-self: right;" onclick="topFunction()" id="myBtn"
+            title="Back to top"></img>
+        <div class="gallery-image" id="gallery-image">
+        </div>
+    </div>
+</body>
+
+</html>
