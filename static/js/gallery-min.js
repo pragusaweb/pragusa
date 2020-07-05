@@ -1,0 +1,1 @@
+var g1={src:"/static/images/index/slide-4.jpg",heading:"Grey Scale",url:"grey_scale"},galleries=[g1];

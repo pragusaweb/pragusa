@@ -1,0 +1,1 @@
+var g1={src:"https://picsum.photos/350/250?image=444",heading:"Heading1",url:"ps1/"},galleries=[g1];
